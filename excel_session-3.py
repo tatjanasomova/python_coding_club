@@ -35,4 +35,5 @@ wb['new'].column_dimensions['A'].width = 25
 #wb['new'].column_dimensions['A'].lenght = 18
 
 many_files = glob.glob('docs\Mott')
-#for each_file in many_files:
+for each_file in many_files:
+    print(each_file)
